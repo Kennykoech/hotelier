@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*
+{
+    outline: none !important;
+}
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header{
+    position: relative;
+    z-index: 1000000;
+}
+
+p{
+    font-size: 1.15rem;
+}
+.navbar{
+    background: transparent  !important;
+    transition: 0.5s;
+}
+
+.navbar.scrolled{
+    background:whitesmoke !important;
+    transition: 0.5s;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: whitesmoke;
+    background: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover{
+    color:#000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus
+{
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:visited {
+    color: rgba(255, 255, 255, 1);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+footer{
+    padding: 50px 0 0;
+}
+
+.sci{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sci li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.sci li a{
+    color:#777;
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+.sci li a:hover{
+    color:#fff;
+}
+
+.cpryt{
+    margin-top:20px;
+    text-align: center;
+    color:#777;
+}
+
+.cpryt a,
+.cpryt a:hover
+{
+    color:#fff;
+}
